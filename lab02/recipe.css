@@ -1,0 +1,47 @@
+/* Global styles */
+body {
+    background-color: #f0eae0;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+/* Header styles */
+h1, h2 {
+    color: #d35400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Section and paragraph styles */
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* List styles */
+li {
+    margin-bottom: 5px;
+}
+
+/* Adjustments for specific sections */
+header {
+    background-color: #eaecee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Link styles */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
