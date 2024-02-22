@@ -1,0 +1,52 @@
+/* Base styling for the body, setting a peach background color, black text, Arial font, and capitalized text. Margin around the body is set for spacing. */
+body {
+    background-color: #FFEADD;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+/* Styles the header with a white background, centered text, and padding for spacing. */
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Sets the color of main headings (h1) to black. */
+h1 {
+    color: #000000;
+}
+
+/* Sets the color of secondary headings (h2) to a dark red. */
+h2 {
+    color: #cc0000;
+}
+
+/* Adds bottom margin to section elements for better spacing between sections. */
+section {
+    margin-bottom: 20px;
+}
+
+/* Styles unordered lists to have no bullet points and no padding for a cleaner look. */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles list items to have a bottom margin for spacing between items. */
+li {
+    margin-bottom: 5px;
+}
+
+/* Sets the default link color to dark red and removes the underline for a cleaner appearance. */
+a {
+    color: #b30000;
+    text-decoration: none;
+}
+
+/* Adds an underline to links when hovered over for visual feedback. */
+a:hover {
+    text-decoration: underline;
+}
