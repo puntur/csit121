@@ -1,0 +1,53 @@
+/* Basic reset of margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: black; 
+}
+
+/* Styling for main container */
+.container {
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5em;
+}
+
+/* Paragraph styling, adjusted color for readability */
+p {
+    font-size: 1.2em;
+    color: #888888; 
+}
+
+/* Ensures images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
