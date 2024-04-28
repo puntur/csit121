@@ -1,0 +1,116 @@
+/* Base styling for the entire body */
+body {
+    background-color: #FFEADD;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+.image-container {
+    width: 400px;
+    height: 220px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
+    overflow: hidden; 
+    position: relative; 
+    margin: 10px; 
+}
+
+/* Styling for the header section */
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling for main heading (h1) elements */
+h1 {
+    color: #000000; /* Black text color for h1 */
+}
+
+/* Styling for subheadings (h2) */
+h2 {
+    color: #cc0000; /* Red text color for h2 */
+}
+
+/* Styling for section elements */
+section {
+    margin-bottom: 20px; /* Adds a bottom margin to each section */
+}
+.recipe-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style-type: none; /* Removes bullet points from lists */
+    padding: 0; /* Removes padding from lists */
+}
+
+/* Styling for list items */
+li {
+    margin-bottom: 5px; /* Adds a bottom margin to each list item */
+}
+/* Image displayed via img tag */
+.recipe-image {
+    width: 100%; /* Responsive image width */
+    max-width: 400px; /* Maximum width */
+    display: block; /* Removes any inline spacing */
+    margin: 0 auto; /* Centers the image */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Background image for a section */
+.more-recipes1-background {
+    background-image: url('IMAGES/ecimg1.jpg');
+        width: 500px;
+        height: 350px;
+        box-shadow: 0px 10px 10px grey;
+        border-radius: 15px;
+        overflow: hidden; 
+        position: relative; 
+        margin: 10px; /* Adds a little margin for spacing */
+}
+
+/* Ensuring all sections have some spacing and a subtle border */
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Spacing between sections */
+    border-radius: 5px; /* Rounded corners for all sections */
+}
+
+/* Background image for a section */
+.more-recipes2-background {
+    background-image: url('IMAGES/ecimg2.jpg'); 
+    width: 186px;
+        height: 270px;
+        box-shadow: -10px 10px 10px grey;
+        border-radius: 15px;
+        overflow: hidden; 
+        position: relative; 
+        margin: 10px; /* Add a little margin for spacing */
+}
+
+/* Ensuring all sections have some spacing and a subtle border */
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Spacing between sections */
+    border-radius: 5px; /* Rounded corners for all sections */
+}
+
+/* Styling for links */
+a {
+    color: #b30000; /* Dark red color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Styling for links on hover */
+a:hover {
+    text-decoration: underline; /* Adds underline to links when hovered */
+}
