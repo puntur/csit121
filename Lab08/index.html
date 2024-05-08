@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Form Elements</title>
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Exploring Form Elements</h1>
+        <p>An educational guide on form elements and their best practices.</p>
+    </header>
+    <!-- Main content -->
+    <main>
+        <!-- Action -->
+        <section>
+            <h2>Action</h2>
+            <p>The action attribute specifies where to send the form-data when a form is submitted.</p>
+            <!-- Example of 'action' attribute -->
+            <form action="submit.php">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <!-- Autocomplete -->
+        <section>
+            <h2>Autocomplete</h2>
+            <p>The autocomplete attribute specifies whether a form or input field should have autocomplete enabled.</p>
+            <!-- Example of 'autocomplete' attribute -->
+            <form autocomplete="on">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" autocomplete="on">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- ID -->
+        <section>
+            <h2>ID</h2>
+            <p>The id attribute specifies a unique id for an HTML element. It is often used to target elements with CSS or JavaScript.</p>
+            <!-- Example of 'id' attribute -->
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Method -->
+        <section>
+            <h2>Method</h2>
+            <p>The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.</p>
+            <!-- Example of 'method' attribute -->
+            <form method="post">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Name -->
+        <section>
+            <h2>Name</h2>
+            <p>The name attribute specifies the name of the form element. It is used to identify the form data after it is submitted.</p>
+            <!-- Example of 'name' attribute -->
+            <form>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Enctype -->
+        <section>
+            <h2>Enctype</h2>
+            <p>The enctype attribute specifies how the form-data should be encoded when submitting it to the server.</p>
+            <!-- Example of 'enctype' attribute -->
+            <form enctype="multipart/form-data">
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Rachana BK</p>
+    </footer>
+</body>
+</html>
